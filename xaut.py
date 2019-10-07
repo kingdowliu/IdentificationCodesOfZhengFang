@@ -9,15 +9,15 @@ import json
 import warnings
 
 
-class XAUT(object):
+class SCHOOL(object):
     def __init__(self):
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
         }
         self.username = '**********'  # 学号
-        self.password = '*********'  # 密码
+        self.password = '**********'  # 密码
         self.name = ''
-        self.url_base = 'http://***.***.***.***/'   # 这里替换成自己学校的
+        self.url_base = 'http://***.***.***.***/'  # 这里替换成自己学校的
         self.raw_url = self.url_base + 'default2.aspx'
         self.url_1 = ''
         self.login_url = ''
@@ -210,7 +210,7 @@ class XAUT(object):
 
 if __name__ == '__main__':
     warnings.filterwarnings('ignore')
-    ob = XAUT()
+    ob = SCHOOL()
     ob.queryScores()
 
 
