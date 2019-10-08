@@ -1,4 +1,5 @@
 #### 正方验证码识别模型
+**博客：**[https://blog.csdn.net/qq_41536331/article/details/101804703](https://blog.csdn.net/qq_41536331/article/details/101804703)
 
 项目结构   
 │  ProcessingImage.py       
