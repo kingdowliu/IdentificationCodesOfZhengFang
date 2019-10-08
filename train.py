@@ -165,4 +165,3 @@ if __name__ == '__main__':
     # SplitAllImage()
     datas, labels = returnDataAndLabel()
     clf = trainModel(datas, labels)
-
