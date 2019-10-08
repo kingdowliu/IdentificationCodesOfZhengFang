@@ -85,12 +85,6 @@ def SplitAllImage():
     print(dict)
 
 
-
-
-# image = Image.open('./images/ukyn.gif')
-# image = Image.open('./images/vf20.gif')
-# image = Image.open('./images/c1th.gif')
-# image = Image.open('./images/vu3i.gif')
 # image_after_GscaleAndBinarization = GrayscaleAndBinarization(image) # 转灰度并二值化
 # image_after_GscaleAndBinarization.save('test.gif')
 # SplitImage(image_after_GscaleAndBinarization)   # 分割图片
