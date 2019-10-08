@@ -64,4 +64,3 @@ def featuretransfer(image):
 
     return features
 
-
