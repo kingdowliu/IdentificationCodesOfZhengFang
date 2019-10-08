@@ -1,6 +1,6 @@
 #### 正方验证码识别模型
 
-项目结构
+项目结构   
 │  ProcessingImage.py    
 │  README.md
 │  requirements.txt
