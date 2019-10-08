@@ -213,4 +213,3 @@ if __name__ == '__main__':
     ob = SCHOOL()
     ob.queryScores()
 
-
